@@ -1,6 +1,6 @@
 {
   "name": "@input-output-hk/front-end-themes",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "IOHK front-end web theme configurations",
   "main": "themes/index.js",
   "scripts": {
@@ -19,9 +19,16 @@
   "bugs": {
     "url": "https://github.com/input-output-hk/front-end-themes/issues"
   },
+  "keywords": [
+    "iohk",
+    "theme",
+    "cardano",
+    "atala"
+  ],
   "files": [
     "/src",
-    "/themes"
+    "/themes",
+    "README.md"
   ],
   "devDependencies": {
     "@babel/cli": "^7.4.4",
