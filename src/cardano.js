@@ -1,3 +1,4 @@
 export default {
-  primary: 'red'
+  primary: 'red',
+  secondary: 'black'
 }
