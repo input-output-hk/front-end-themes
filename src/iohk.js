@@ -1,3 +1,4 @@
 export default {
-  primary: 'tomato'
+  primary: 'tomato',
+  secondary: 'pink'
 }
