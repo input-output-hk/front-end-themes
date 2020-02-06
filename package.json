@@ -1,13 +1,12 @@
 {
   "name": "@input-output-hk/front-end-themes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "IOHK front-end web theme configurations",
   "main": "themes/index.js",
   "scripts": {
     "build": "babel src --out-dir themes --source-maps inline",
     "lint": "eslint src/**/*.js",
-    "prepublish": "npm run build",
-    "prepublishOnly": "npm run lint",
+    "postinstall": "npm run build",
     "watch": "npm run build -- --watch"
   },
   "repository": {
