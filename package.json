@@ -1,0 +1,36 @@
+{
+  "name": "@input-output-hk/front-end-themes",
+  "version": "0.0.1",
+  "description": "IOHK front-end web theme configurations",
+  "main": "themes/index.js",
+  "scripts": {
+    "build": "babel src --out-dir themes --source-maps inline",
+    "lint": "eslint src/**/*.js",
+    "prepublish": "npm run build",
+    "prepublishOnly": "npm run lint",
+    "watch": "npm run build -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/input-output-hk/front-end-themes.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/input-output-hk/front-end-themes/issues"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/runtime": "^7.4.5",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "homepage": "https://github.com/input-output-hk/front-end-themes#readme"
+}

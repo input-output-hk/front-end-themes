@@ -1,0 +1,81 @@
+version: 2.1
+executors:
+  main:
+    docker:
+      - image: 'circleci/node:10'
+
+jobs:
+  install_dependencies:
+    executor: main
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - node-v1-{{ .Branch }}-{{ checksum "package-lock.json" }}
+            - node-v1-{{ .Branch }}-
+            - node-v1-
+      - run: npm ci
+      - save_cache:
+          paths:
+            - ./node_modules
+          key: node-v1-{{ .Branch }}-{{ checksum "package-lock.json" }}
+  build:
+    executor: main
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - node-v1-{{ .Branch }}-{{ checksum "package-lock.json" }}
+      - run:
+          name: Building src
+          command: npm run build
+      - persist_to_workspace:
+          root: themes
+          paths:
+            - "*"
+  release:
+    executor: main
+    steps:
+      - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "e1:1a:9f:78:73:2a:25:6a:59:73:60:87:8a:bf:af:74"
+      - run:
+          name: Setup git config
+          command: |
+                git config user.email "$GIT_EMAIL"
+                git config user.name "$GIT_USERNAME"
+      - run:
+          name: Tag release
+          command: ./scripts/tag_release.sh
+  test:
+    executor: main
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - node-v1-{{ .Branch }}-{{ checksum "package-lock.json" }}
+      - run:
+          name: Linting javascript
+          command: npm run lint
+      - run:
+          name: Running automated tests
+          command: npm test
+
+workflows:
+  version: 2
+  main:
+    jobs:
+      - install_dependencies
+      - test:
+          requires:
+            - install_dependencies
+      - build:
+          requires:
+            - install_dependencies
+      - release:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
