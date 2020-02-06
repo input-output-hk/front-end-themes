@@ -33,6 +33,16 @@ jobs:
           root: themes
           paths:
             - "*"
+  deploy:
+    executor: main
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - node-v1-{{ .Branch }}-{{ checksum "package-lock.json" }}
+      - run:
+          name: Publish to NPM
+          command: ./scripts/publish.sh
   release:
     executor: main
     steps:
@@ -73,9 +83,15 @@ workflows:
       - build:
           requires:
             - install_dependencies
-      - release:
+      - deploy:
           requires:
             - build
+          filters:
+            branches:
+              only: master
+      - release:
+          requires:
+            - deploy
           filters:
             branches:
               only: master
