@@ -1,4 +1,11 @@
-export default {
+import { extendDefaultTheme } from './defaultTheme'
+
+export default extendDefaultTheme({
   primary: 'blue',
-  secondary: 'red'
-}
+  secondary: 'red',
+  typography: {
+    h1: {
+      fontWeight: 100
+    }
+  }
+})
