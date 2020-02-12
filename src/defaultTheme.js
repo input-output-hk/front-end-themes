@@ -14,7 +14,8 @@ const baseConfig = {
       default: '#fff',
       primary: '#fff',
       secondary: '#222',
-      tertiary: '#0ff'
+      tertiary: '#0ff',
+      inverted: '#000'
     },
     action: {
       active: '#fff',
@@ -25,7 +26,8 @@ const baseConfig = {
       hoverBackground: '#f83633',
       selected: '#000',
       selectedBackground: '#f83666'
-    }
+    },
+    type: 'light'
   },
   typography: {
     fontFamily: 'Poppins',
