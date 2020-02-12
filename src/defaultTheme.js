@@ -1,4 +1,5 @@
 const baseConfig = {
+  type: 'light',
   colors: {
     primary: '#ff0',
     secondary: '#f00',
@@ -26,8 +27,7 @@ const baseConfig = {
       hoverBackground: '#f83633',
       selected: '#000',
       selectedBackground: '#f83666'
-    },
-    type: 'light'
+    }
   },
   typography: {
     fontFamily: 'Poppins',
