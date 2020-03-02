@@ -1,27 +1,32 @@
 import { extendDefaultTheme } from './defaultTheme'
 
 export default extendDefaultTheme({
+  type: 'light',
+  name: 'Atala Light',
   colors: {
-    primary: '#E5493E',
-    secondary: '#40eaea',
-    tertiary: '#E5493E',
+    primary: {
+      main: '#E5493E',
+      light: '#f06960',
+      dark: '#cf3025',
+      contrastText: '#ffffff'
+    },
+    secondary: {
+      main: '#40eaea',
+      light: '#5ef7f7',
+      dark: '#31e8e8',
+      contrastText: '#222'
+    },
     text: {
       primary: '#222',
-      secondary: '#fff',
-      tertiary: '#40eaea',
-      inverted: '#fff'
+      secondary: '#333',
+      disabled: '#555',
+      hint: '#444'
     },
     background: {
-      default: '#fff',
-      primary: '#fff',
-      secondary: '#E5493E',
-      tertiary: '#011727'
+      default: '#fff'
     }
   },
   typography: {
-    googleFontsURL: 'https://fonts.googleapis.com/css?family=Poppins:300,600,700',
-    baseFontSize: 10,
-    lineHeight: 1.6,
     h1: {
       fontSize: 5,
       fontWeight: 700
@@ -46,10 +51,6 @@ export default extendDefaultTheme({
     h6: {
       fontSize: 1.2,
       fontWeight: 700
-    },
-    body2: {
-      fontSize: 1.4,
-      lineHeight: 1.7
     }
   }
 })
