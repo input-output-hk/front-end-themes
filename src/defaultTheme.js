@@ -1,49 +1,69 @@
 const baseConfig = {
   type: 'light',
   colors: {
-    primary: '#ff0',
-    secondary: '#f00',
-    tertiary: '#555',
+    primary: {
+      main: '#ff0',
+      light: 'rgb(255, 255, 147)',
+      dark: 'rgb(187, 187, 0)',
+      contrastText: '#000'
+    },
+    secondary: {
+      main: '#f00',
+      light: 'rgb(250, 56, 56)',
+      dark: 'rgb(196, 0, 0)',
+      contrastText: '#fff'
+    },
+    error: {
+      light: '#e57373',
+      main: '#f44336',
+      dark: '#d32f2f',
+      contrastText: '#fff'
+    },
+    warning: {
+      light: '#ffb74d',
+      main: '#ff9800',
+      dark: '#f57c00',
+      contrastText: 'rgba(0, 0, 0, 0.87)'
+    },
+    info: {
+      light: '#64b5f6',
+      main: '#2196f3',
+      dark: '#1976d2',
+      contrastText: '#fff'
+    },
+    success: {
+      light: '#81c784',
+      main: '#4caf50',
+      dark: '#388e3c',
+      contrastText: 'rgba(0, 0, 0, 0.87)'
+    },
     text: {
-      default: '#000',
-      primary: '#222',
-      secondary: '#555',
-      tertiary: '#aaa',
-      inverted: '#fff'
+      primary: 'rgba(0, 0, 0, 0.87)',
+      secondary: 'rgba(0, 0, 0, 0.54)',
+      disabled: 'rgba(0, 0, 0, 0.38)',
+      hint: 'rgba(0, 0, 0, 0.38)'
     },
     background: {
-      default: '#fff',
-      primary: '#fff',
-      secondary: '#222',
-      tertiary: '#0ff',
-      inverted: '#000'
-    },
-    action: {
-      active: '#fff',
-      activeBackground: '#f83633',
-      disabled: '#555',
-      disabledBackground: '#999',
-      hover: '#f0f',
-      hoverBackground: '#f83633',
-      selected: '#000',
-      selectedBackground: '#f83666'
+      default: '#fff'
     }
   },
   typography: {
-    fontFamily: 'Poppins',
-    googleFontsURL: 'https://fonts.googleapis.com/css?family=Poppins:300,400',
-    baseFontSize: 10,
+    fontFamily: 'Open Sans, sans-serif',
+    googleFontsURL: 'https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700',
+    baseFontSize: 16,
     lineHeight: 1.6,
+    letterSpacing: 1,
+    fontWeight: 400,
     h1: {
       fontSize: 4,
-      fontWeight: 400,
+      fontWeight: 700,
       letterSpacing: 1,
       lineHeight: 1.2,
       textTransform: 'none'
     },
     h2: {
       fontSize: 3,
-      fontWeight: 400,
+      fontWeight: 600,
       letterSpacing: 1,
       lineHeight: 1.2,
       textTransform: 'none'
@@ -76,31 +96,11 @@ const baseConfig = {
       lineHeight: 1.2,
       textTransform: 'none'
     },
-    body1: {
+    body: {
       fontSize: 1,
       fontWeight: 200,
       letterSpacing: 0,
       lineHeight: 1.7
-    },
-    body2: {
-      fontSize: 0.8,
-      fontWeight: 300,
-      letterSpacing: 0,
-      lineHeight: 1.8
-    },
-    subtitle1: {
-      fontSize: 1,
-      fontWeight: 300,
-      letterSpacing: 1,
-      lineHeight: 1.7,
-      textTransform: 'none'
-    },
-    subtitle2: {
-      fontSize: 0.8,
-      fontWeight: 300,
-      letterSpacing: 1,
-      lineHeight: 1.8,
-      textTransform: 'none'
     },
     button: {
       fontSize: 1,
@@ -115,13 +115,6 @@ const baseConfig = {
       letterSpacing: 1,
       lineHeight: 1.8,
       textTransform: 'none'
-    },
-    small: {
-      fontSize: 0.6,
-      fontWeight: 400,
-      letterSpacing: 1,
-      lineHeight: 1.8,
-      textTransform: 'uppercase'
     }
   }
 }
