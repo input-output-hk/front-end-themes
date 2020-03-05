@@ -48,8 +48,8 @@ const baseConfig = {
     }
   },
   typography: {
-    fontFamily: 'Poppins',
-    googleFontsURL: 'https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700',
+    fontFamily: 'Open Sans, sans-serif',
+    googleFontsURL: 'https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700',
     baseFontSize: 16,
     lineHeight: 1.6,
     letterSpacing: 1,
