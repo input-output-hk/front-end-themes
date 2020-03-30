@@ -1,5 +1,5 @@
 import atala from './atala'
-import ambassadors from './ambassadors';
+import ambassadors from './ambassadors'
 import cardano from './cardano'
 import iohk from './iohk'
 
