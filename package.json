@@ -1,6 +1,6 @@
 {
   "name": "@input-output-hk/front-end-themes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "IOHK front-end web theme configurations",
   "main": "themes/index.js",
   "scripts": {

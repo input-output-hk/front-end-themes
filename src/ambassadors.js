@@ -14,11 +14,11 @@ export default extendDefaultTheme({
       main: '#dbdbdb',
       light: '#eeeeee',
       dark: '#cccccc',
-      contrastText: '#fff'
+      contrastText: '#333'
     },
     text: {
-      primary: '#222',
-      secondary: '#333',
+      primary: '#333',
+      secondary: '#fff',
       disabled: '#555',
       hint: '#444'
     },
