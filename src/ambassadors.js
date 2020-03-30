@@ -11,9 +11,9 @@ export default extendDefaultTheme({
       contrastText: '#fff'
     },
     secondary: {
-      main: '#1746a0',
-      light: '#3E6FC9',
-      dark: '#012C7C',
+      main: '#dbdbdb',
+      light: '#eeeeee',
+      dark: '#cccccc',
       contrastText: '#fff'
     },
     text: {
