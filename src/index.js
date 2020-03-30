@@ -1,7 +1,7 @@
 import atala from './atala'
-import ambassadors from './ambassadors'
 import cardano from './cardano'
 import iohk from './iohk'
+import ambassadors from './ambassadors'
 
 export {
   atala,
