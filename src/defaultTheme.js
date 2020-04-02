@@ -59,62 +59,170 @@ const baseConfig = {
       fontWeight: 700,
       letterSpacing: 1,
       lineHeight: 1.2,
-      textTransform: 'none'
+      textTransform: 'none',
+      '@media (min-width:600px)': {
+        fontSize: 2.5
+      },
+      '@media (min-width:960px)': {
+        fontSize: 3
+      },
+      '@media (min-width:1280px)': {
+        fontSize: 3.5
+      },
+      '@media (min-width:2049px)': {
+        fontSize: 4
+      }
     },
     h2: {
       fontSize: 3,
       fontWeight: 600,
       letterSpacing: 1,
       lineHeight: 1.2,
-      textTransform: 'none'
+      textTransform: 'none',
+      '@media (min-width:600px)': {
+        fontSize: 2
+      },
+      '@media (min-width:960px)': {
+        fontSize: 2.5
+      },
+      '@media (min-width:1280px)': {
+        fontSize: 3
+      },
+      '@media (min-width:2049px)': {
+        fontSize: 3.5
+      }
     },
     h3: {
       fontSize: 2.2,
       fontWeight: 400,
       letterSpacing: 1,
       lineHeight: 1.2,
-      textTransform: 'none'
+      textTransform: 'none',
+      '@media (min-width:600px)': {
+        fontSize: 1.5
+      },
+      '@media (min-width:960px)': {
+        fontSize: 2
+      },
+      '@media (min-width:1280px)': {
+        fontSize: 2.5
+      },
+      '@media (min-width:2049px)': {
+        fontSize: 3
+      }
     },
     h4: {
       fontSize: 2,
       fontWeight: 400,
       letterSpacing: 1,
       lineHeight: 1.2,
-      textTransform: 'none'
+      textTransform: 'none',
+      '@media (min-width:600px)': {
+        fontSize: 1.3
+      },
+      '@media (min-width:960px)': {
+        fontSize: 1.6
+      },
+      '@media (min-width:1280px)': {
+        fontSize: 1.9
+      },
+      '@media (min-width:2049px)': {
+        fontSize: 2.2
+      }
     },
     h5: {
       fontSize: 1.8,
       fontWeight: 700,
       letterSpacing: 1,
       lineHeight: 1.2,
-      textTransform: 'none'
+      textTransform: 'none',
+      '@media (min-width:600px)': {
+        fontSize: 1.15
+      },
+      '@media (min-width:960px)': {
+        fontSize: 1.3
+      },
+      '@media (min-width:1280px)': {
+        fontSize: 1.45
+      },
+      '@media (min-width:2049px)': {
+        fontSize: 1.6
+      }
     },
     h6: {
       fontSize: 1.6,
       fontWeight: 700,
       letterSpacing: 1,
       lineHeight: 1.2,
-      textTransform: 'none'
+      textTransform: 'none',
+      '@media (min-width:600px)': {
+        fontSize: 1
+      },
+      '@media (min-width:960px)': {
+        fontSize: 1.2
+      },
+      '@media (min-width:1280px)': {
+        fontSize: 1.4
+      },
+      '@media (min-width:2049px)': {
+        fontSize: 1.6
+      }
     },
     body: {
       fontSize: 1,
       fontWeight: 200,
       letterSpacing: 0,
-      lineHeight: 1.7
+      lineHeight: 1.7,
+      '@media (min-width:600px)': {
+        fontSize: 0.8
+      },
+      '@media (min-width:960px)': {
+        fontSize: 1
+      },
+      '@media (min-width:1280px)': {
+        fontSize: 1
+      },
+      '@media (min-width:2049px)': {
+        fontSize: 1.2
+      }
     },
     button: {
       fontSize: 1,
       fontWeight: 300,
       letterSpacing: 1,
       lineHeight: 1.7,
-      textTransform: 'uppercase'
+      textTransform: 'uppercase',
+      '@media (min-width:600px)': {
+        fontSize: 1
+      },
+      '@media (min-width:960px)': {
+        fontSize: 1
+      },
+      '@media (min-width:1280px)': {
+        fontSize: 1
+      },
+      '@media (min-width:2049px)': {
+        fontSize: 1.2
+      }
     },
     caption: {
       fontSize: 0.8,
       fontWeight: 300,
       letterSpacing: 1,
       lineHeight: 1.8,
-      textTransform: 'none'
+      textTransform: 'none',
+      '@media (min-width:600px)': {
+        fontSize: 0.8
+      },
+      '@media (min-width:960px)': {
+        fontSize: 0.8
+      },
+      '@media (min-width:1280px)': {
+        fontSize: 0.8
+      },
+      '@media (min-width:2049px)': {
+        fontSize: 1
+      }
     }
   }
 }

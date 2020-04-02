@@ -40,17 +40,20 @@ export default extendDefaultTheme({
       lineHeight: 1.7
     },
     h1: {
-      fontSize: 4,
-      fontWeight: 700
+      fontSize: 1.8,
+      fontWeight: 700,
+      scaleRatio: 7
     },
     h2: {
-      fontSize: 2,
+      fontSize: 1.5,
       fontWeight: 600,
-      lineHeight: 1.3
+      lineHeight: 1.1,
+      scaleRatio: 4
     },
     h3: {
       fontSize: 1.3,
-      fontWeight: 600
+      fontWeight: 600,
+      scaleRatio: 2
     },
     h4: {
       fontSize: 1.2,
