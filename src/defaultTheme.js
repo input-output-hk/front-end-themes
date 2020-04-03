@@ -186,6 +186,24 @@ const baseConfig = {
         fontSize: 1.2
       }
     },
+    small: {
+      fontSize: 0.8,
+      fontWeight: 200,
+      letterSpacing: 0,
+      lineHeight: 1.7,
+      '@media (min-width:600px)': {
+        fontSize: 0.8
+      },
+      '@media (min-width:960px)': {
+        fontSize: 1
+      },
+      '@media (min-width:1280px)': {
+        fontSize: 1
+      },
+      '@media (min-width:2049px)': {
+        fontSize: 1.2
+      }
+    },
     button: {
       fontSize: 1,
       fontWeight: 300,
@@ -193,7 +211,7 @@ const baseConfig = {
       lineHeight: 1.7,
       textTransform: 'uppercase',
       '@media (min-width:600px)': {
-        fontSize: 1
+        fontSize: 0.8
       },
       '@media (min-width:960px)': {
         fontSize: 1
@@ -215,13 +233,13 @@ const baseConfig = {
         fontSize: 0.8
       },
       '@media (min-width:960px)': {
-        fontSize: 0.8
+        fontSize: 0.9
       },
       '@media (min-width:1280px)': {
-        fontSize: 0.8
+        fontSize: 1
       },
       '@media (min-width:2049px)': {
-        fontSize: 1
+        fontSize: 1.1
       }
     }
   }
