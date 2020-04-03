@@ -72,22 +72,22 @@ export default extendDefaultTheme({
       }
     },
     h3: {
-      fontSize: 1.15,
-      fontWeight: 400,
+      fontSize: 1.25,
+      fontWeight: 600,
       letterSpacing: 1,
       lineHeight: 1.2,
       textTransform: 'none',
       '@media (min-width:600px)': {
-        fontSize: 1.15
-      },
-      '@media (min-width:960px)': {
-        fontSize: 1.2
-      },
-      '@media (min-width:1280px)': {
         fontSize: 1.25
       },
-      '@media (min-width:2049px)': {
+      '@media (min-width:960px)': {
         fontSize: 1.3
+      },
+      '@media (min-width:1280px)': {
+        fontSize: 1.35
+      },
+      '@media (min-width:2049px)': {
+        fontSize: 1.4
       }
     },
     h4: {
@@ -147,6 +147,24 @@ export default extendDefaultTheme({
         fontSize: 1.15
       }
     },
+    small: {
+      fontSize: 0.8,
+      fontWeight: 200,
+      letterSpacing: 0,
+      lineHeight: 1.7,
+      '@media (min-width:600px)': {
+        fontSize: 0.8
+      },
+      '@media (min-width:960px)': {
+        fontSize: 0.9
+      },
+      '@media (min-width:1280px)': {
+        fontSize: 1
+      },
+      '@media (min-width:2049px)': {
+        fontSize: 1.1
+      }
+    },
     body: {
       fontSize: 1.2,
       fontWeight: 300,
@@ -156,13 +174,13 @@ export default extendDefaultTheme({
         fontSize: 1.2
       },
       '@media (min-width:960px)': {
-        fontSize: 1.3
+        fontSize: 1.25
       },
       '@media (min-width:1280px)': {
-        fontSize: 1.4
+        fontSize: 1.3
       },
       '@media (min-width:2049px)': {
-        fontSize: 1.5
+        fontSize: 1.35
       }
     }
   }
