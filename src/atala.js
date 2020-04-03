@@ -33,137 +33,36 @@ export default extendDefaultTheme({
     lineHeight: 1.6,
     letterSpacing: 0.5,
     fontWeight: 400,
-    h1: {
-      fontSize: 2.5,
-      fontWeight: 700,
+    body: {
+      fontSize: 1.3,
+      fontWeight: 300,
       letterSpacing: 1,
-      lineHeight: 1.2,
-      textTransform: 'none',
-      '@media (min-width:600px)': {
-        fontSize: 2.5
-      },
-      '@media (min-width:960px)': {
-        fontSize: 3
-      },
-      '@media (min-width:1280px)': {
-        fontSize: 3.5
-      },
-      '@media (min-width:2049px)': {
-        fontSize: 4
-      }
+      lineHeight: 1.7
+    },
+    h1: {
+      fontSize: 4,
+      fontWeight: 700
     },
     h2: {
-      fontSize: 1.75,
+      fontSize: 2,
       fontWeight: 600,
-      letterSpacing: 1,
-      lineHeight: 1.2,
-      textTransform: 'none',
-      '@media (min-width:600px)': {
-        fontSize: 1.75
-      },
-      '@media (min-width:960px)': {
-        fontSize: 2
-      },
-      '@media (min-width:1280px)': {
-        fontSize: 2.25
-      },
-      '@media (min-width:2049px)': {
-        fontSize: 2.5
-      }
+      lineHeight: 1.3
     },
     h3: {
-      fontSize: 1.15,
-      fontWeight: 400,
-      letterSpacing: 1,
-      lineHeight: 1.2,
-      textTransform: 'none',
-      '@media (min-width:600px)': {
-        fontSize: 1.15
-      },
-      '@media (min-width:960px)': {
-        fontSize: 1.2
-      },
-      '@media (min-width:1280px)': {
-        fontSize: 1.25
-      },
-      '@media (min-width:2049px)': {
-        fontSize: 1.3
-      }
+      fontSize: 1.3,
+      fontWeight: 600
     },
     h4: {
-      fontSize: 1.1,
-      fontWeight: 400,
-      letterSpacing: 1,
-      lineHeight: 1.2,
-      textTransform: 'none',
-      '@media (min-width:600px)': {
-        fontSize: 1.1
-      },
-      '@media (min-width:960px)': {
-        fontSize: 1.15
-      },
-      '@media (min-width:1280px)': {
-        fontSize: 1.2
-      },
-      '@media (min-width:2049px)': {
-        fontSize: 1.25
-      }
+      fontSize: 1.2,
+      fontWeight: 600
     },
     h5: {
-      fontSize: 1.05,
-      fontWeight: 700,
-      letterSpacing: 1,
-      lineHeight: 1.2,
-      textTransform: 'none',
-      '@media (min-width:600px)': {
-        fontSize: 1.05
-      },
-      '@media (min-width:960px)': {
-        fontSize: 1.1
-      },
-      '@media (min-width:1280px)': {
-        fontSize: 1.15
-      },
-      '@media (min-width:2049px)': {
-        fontSize: 1.2
-      }
+      fontSize: 1.1,
+      fontWeight: 600
     },
     h6: {
       fontSize: 1,
-      fontWeight: 700,
-      letterSpacing: 1,
-      lineHeight: 1.2,
-      textTransform: 'none',
-      '@media (min-width:600px)': {
-        fontSize: 1
-      },
-      '@media (min-width:960px)': {
-        fontSize: 1
-      },
-      '@media (min-width:1280px)': {
-        fontSize: 1.1
-      },
-      '@media (min-width:2049px)': {
-        fontSize: 1.15
-      }
-    },
-    body: {
-      fontSize: 1.2,
-      fontWeight: 300,
-      letterSpacing: 1,
-      lineHeight: 1.7,
-      '@media (min-width:600px)': {
-        fontSize: 1.2
-      },
-      '@media (min-width:960px)': {
-        fontSize: 1.3
-      },
-      '@media (min-width:1280px)': {
-        fontSize: 1.4
-      },
-      '@media (min-width:2049px)': {
-        fontSize: 1.5
-      }
+      fontWeight: 700
     }
   }
 })

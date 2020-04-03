@@ -59,188 +59,62 @@ const baseConfig = {
       fontWeight: 700,
       letterSpacing: 1,
       lineHeight: 1.2,
-      textTransform: 'none',
-      '@media (min-width:600px)': {
-        fontSize: 2.5
-      },
-      '@media (min-width:960px)': {
-        fontSize: 3
-      },
-      '@media (min-width:1280px)': {
-        fontSize: 3.5
-      },
-      '@media (min-width:2049px)': {
-        fontSize: 4
-      }
+      textTransform: 'none'
     },
     h2: {
       fontSize: 3,
       fontWeight: 600,
       letterSpacing: 1,
       lineHeight: 1.2,
-      textTransform: 'none',
-      '@media (min-width:600px)': {
-        fontSize: 2
-      },
-      '@media (min-width:960px)': {
-        fontSize: 2.5
-      },
-      '@media (min-width:1280px)': {
-        fontSize: 3
-      },
-      '@media (min-width:2049px)': {
-        fontSize: 3.5
-      }
+      textTransform: 'none'
     },
     h3: {
       fontSize: 2.2,
       fontWeight: 400,
       letterSpacing: 1,
       lineHeight: 1.2,
-      textTransform: 'none',
-      '@media (min-width:600px)': {
-        fontSize: 1.5
-      },
-      '@media (min-width:960px)': {
-        fontSize: 2
-      },
-      '@media (min-width:1280px)': {
-        fontSize: 2.5
-      },
-      '@media (min-width:2049px)': {
-        fontSize: 3
-      }
+      textTransform: 'none'
     },
     h4: {
       fontSize: 2,
       fontWeight: 400,
       letterSpacing: 1,
       lineHeight: 1.2,
-      textTransform: 'none',
-      '@media (min-width:600px)': {
-        fontSize: 1.3
-      },
-      '@media (min-width:960px)': {
-        fontSize: 1.6
-      },
-      '@media (min-width:1280px)': {
-        fontSize: 1.9
-      },
-      '@media (min-width:2049px)': {
-        fontSize: 2.2
-      }
+      textTransform: 'none'
     },
     h5: {
       fontSize: 1.8,
       fontWeight: 700,
       letterSpacing: 1,
       lineHeight: 1.2,
-      textTransform: 'none',
-      '@media (min-width:600px)': {
-        fontSize: 1.15
-      },
-      '@media (min-width:960px)': {
-        fontSize: 1.3
-      },
-      '@media (min-width:1280px)': {
-        fontSize: 1.45
-      },
-      '@media (min-width:2049px)': {
-        fontSize: 1.6
-      }
+      textTransform: 'none'
     },
     h6: {
       fontSize: 1.6,
       fontWeight: 700,
       letterSpacing: 1,
       lineHeight: 1.2,
-      textTransform: 'none',
-      '@media (min-width:600px)': {
-        fontSize: 1
-      },
-      '@media (min-width:960px)': {
-        fontSize: 1.2
-      },
-      '@media (min-width:1280px)': {
-        fontSize: 1.4
-      },
-      '@media (min-width:2049px)': {
-        fontSize: 1.6
-      }
+      textTransform: 'none'
     },
     body: {
       fontSize: 1,
       fontWeight: 200,
       letterSpacing: 0,
-      lineHeight: 1.7,
-      '@media (min-width:600px)': {
-        fontSize: 0.8
-      },
-      '@media (min-width:960px)': {
-        fontSize: 1
-      },
-      '@media (min-width:1280px)': {
-        fontSize: 1
-      },
-      '@media (min-width:2049px)': {
-        fontSize: 1.2
-      }
-    },
-    small: {
-      fontSize: 0.8,
-      fontWeight: 200,
-      letterSpacing: 0,
-      lineHeight: 1.7,
-      '@media (min-width:600px)': {
-        fontSize: 0.8
-      },
-      '@media (min-width:960px)': {
-        fontSize: 1
-      },
-      '@media (min-width:1280px)': {
-        fontSize: 1
-      },
-      '@media (min-width:2049px)': {
-        fontSize: 1.2
-      }
+      lineHeight: 1.7
     },
     button: {
       fontSize: 1,
       fontWeight: 300,
       letterSpacing: 1,
       lineHeight: 1.7,
-      textTransform: 'uppercase',
-      '@media (min-width:600px)': {
-        fontSize: 0.8
-      },
-      '@media (min-width:960px)': {
-        fontSize: 1
-      },
-      '@media (min-width:1280px)': {
-        fontSize: 1
-      },
-      '@media (min-width:2049px)': {
-        fontSize: 1.2
-      }
+      textTransform: 'uppercase'
     },
     caption: {
       fontSize: 0.8,
       fontWeight: 300,
       letterSpacing: 1,
       lineHeight: 1.8,
-      textTransform: 'none',
-      '@media (min-width:600px)': {
-        fontSize: 0.8
-      },
-      '@media (min-width:960px)': {
-        fontSize: 0.9
-      },
-      '@media (min-width:1280px)': {
-        fontSize: 1
-      },
-      '@media (min-width:2049px)': {
-        fontSize: 1.1
-      }
+      textTransform: 'none'
     }
   }
 }
