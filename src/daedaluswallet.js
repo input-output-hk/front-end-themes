@@ -31,40 +31,30 @@ export default extendDefaultTheme({
   typography: {
     fontFamily: 'Montserrat, sans-serif',
     googleFontsURL: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600',
-    baseFontSize: 14,
+    baseFontSize: 16,
     lineHeight: 1.6,
     letterSpacing: 0.5,
     fontWeight: 300,
-    bigFontSize: 16,
     body: {
-      fontWeight: 300,
-      letterSpacing: 1,
-      lineHeight: 1.7
+      fontWeight: 300
     },
     h1: {
-      fontSize: 2.3,
       fontWeight: 300,
       textTransform: 'uppercase'
     },
     h2: {
-      fontSize: 1.45,
-      fontWeight: 300,
-      lineHeight: 1.3
+      fontWeight: 300
     },
     h3: {
-      fontSize: 1.2,
       fontWeight: 300
     },
     h4: {
-      fontSize: 1,
       fontWeight: 300
     },
     h5: {
-      fontSize: 0.8,
       fontWeight: 300
     },
     h6: {
-      fontSize: 1,
       fontWeight: 300
     },
     button: {
