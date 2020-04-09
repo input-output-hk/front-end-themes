@@ -55,111 +55,75 @@ const baseConfig = {
     letterSpacing: 1,
     fontWeight: 400,
     h1: {
-      fontSize: 5.625,
+      fontSize: 2.488,
       fontWeight: 700,
-      letterSpacing: -1.5,
-      lineHeight: 1.2,
+      lineHeight: 1.15,
+      margin: '2.75rem 0 1.05rem',
       textTransform: 'none',
-      '@media (min-width:2049px)': {
-        fontSize: 7.025
-      },
-      '@media (max-width:1280px)': {
-        fontSize: 5.625
-      },
       '@media (max-width:960px)': {
-        fontSize: 4.225
+        fontSize: 2.288
       },
       '@media (max-width:600px)': {
-        fontSize: 2.825
+        fontSize: 2.088
       }
     },
     h2: {
-      fontSize: 3.6875,
+      fontSize: 2.074,
       fontWeight: 600,
-      letterSpacing: -0.5,
-      lineHeight: 1.2,
+      lineHeight: 1.15,
+      margin: '2.75rem 0 1.05rem',
       textTransform: 'none',
-      '@media (min-width:2049px)': {
-        fontSize: 4.5875
-      },
-      '@media (max-width:1280px)': {
-        fontSize: 3.6875
-      },
       '@media (max-width:960px)': {
-        fontSize: 2.7875
+        fontSize: 1.874
       },
       '@media (max-width:600px)': {
-        fontSize: 1.8875
+        fontSize: 1.674
       }
     },
     h3: {
-      fontSize: 3,
+      fontSize: 1.728,
       fontWeight: 400,
-      letterSpacing: 0,
-      lineHeight: 1.2,
+      lineHeight: 1.15,
+      margin: '2.75rem 0 1.05rem',
       textTransform: 'none',
-      '@media (min-width:2049px)': {
-        fontSize: 3.75
-      },
-      '@media (max-width:1280px)': {
-        fontSize: 3
-      },
       '@media (max-width:960px)': {
-        fontSize: 2.25
+        fontSize: 1.528
       },
       '@media (max-width:600px)': {
-        fontSize: 1.5
+        fontSize: 1.328
       }
     },
     h4: {
-      fontSize: 2.125,
+      fontSize: 1.44,
       fontWeight: 700,
-      letterSpacing: 0.25,
-      lineHeight: 1.1,
+      lineHeight: 1.15,
+      margin: '2.75rem 0 1.05rem',
       textTransform: 'none',
-      '@media (min-width:2049px)': {
-        fontSize: 2.625
-      },
-      '@media (max-width:1280px)': {
-        fontSize: 2.125
-      },
       '@media (max-width:960px)': {
-        fontSize: 1.625
+        fontSize: 1.24
       },
       '@media (max-width:600px)': {
-        fontSize: 1.125
+        fontSize: 1.04
       }
     },
     h5: {
-      fontSize: 1.5,
+      fontSize: 1.2,
       fontWeight: 700,
-      letterSpacing: 0,
       lineHeight: 1.1,
+      margin: '2.75rem 0 1.05rem',
       textTransform: 'none',
-      '@media (min-width:2049px)': {
-        fontSize: 1.875
-      },
-      '@media (max-width:1280px)': {
-        fontSize: 1.5
-      },
       '@media (max-width:960px)': {
-        fontSize: 1.1251
+        fontSize: 1
       }
     },
     h6: {
-      fontSize: 1.25,
+      fontSize: 1,
       fontWeight: 700,
-      letterSpacing: 0.15,
       lineHeight: 1.1,
+      margin: '2.75rem 0 1.05rem',
       textTransform: 'none',
-      '@media (min-width:2049px)': {
-        fontSize: 1.55
-      },
-      '@media (max-width:1280px)': {
-        fontSize: 1.25
-      },
       '@media (max-width:960px)': {
-        fontSize: 0.95
+        fontSize: 0.8
       }
     },
     body: {
@@ -175,30 +139,21 @@ const baseConfig = {
       fontSize: 0.8,
       fontWeight: 200,
       letterSpacing: 0,
-      lineHeight: 1.5,
-      '@media (min-width:2049px)': {
-        fontSize: 1
-      }
+      lineHeight: 1.5
     },
     button: {
       fontSize: 1,
       fontWeight: 400,
       letterSpacing: 1.25,
       lineHeight: 1,
-      textTransform: 'uppercase',
-      '@media (min-width:2049px)': {
-        fontSize: 1.125
-      }
+      textTransform: 'uppercase'
     },
     caption: {
       fontSize: 0.8,
       fontWeight: 300,
       letterSpacing: 0.4,
       lineHeight: 1.8,
-      textTransform: 'none',
-      '@media (min-width:2049px)': {
-        fontSize: 1
-      }
+      textTransform: 'none'
     }
   }
 }

@@ -43,7 +43,7 @@ export default extendDefaultTheme({
       textTransform: 'uppercase'
     },
     h2: {
-      fontWeight: 300,
+      fontWeight: 300
     },
     h3: {
       fontWeight: 300
