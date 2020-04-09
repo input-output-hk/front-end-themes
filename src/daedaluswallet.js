@@ -36,7 +36,7 @@ export default extendDefaultTheme({
     letterSpacing: 0.5,
     fontWeight: 300,
     body: {
-      fontWeight: 300,
+      fontWeight: 300
     },
     h1: {
       fontWeight: 300,
