@@ -11,16 +11,17 @@ export default extendDefaultTheme({
       contrastText: '#ffffff'
     },
     secondary: {
-      main: '#444444',
-      light: '#666666',
-      dark: '#333333',
+      main: '#2a2a49',
+      light: '#303056',
+      dark: '#1f1f38',
       contrastText: '#ffffff'
     },
     text: {
-      primary: '#fff',
+      primary: 'rgba(255, 255, 255, 0.7)',
       secondary: '#333',
       disabled: '#555',
-      hint: '#444'
+      hint: '#444',
+      hilight: 'rgba(255, 255, 255, 0.9)'
     },
     background: {
       default: 'rgb(19, 19, 37)',
