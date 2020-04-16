@@ -34,13 +34,13 @@ export default extendDefaultTheme({
       fontSize: 2.488,
       fontWeight: 300,
       lineHeight: 1.15,
-      letterSpacing: 1.5,
+      letterSpacing: 0.15,
       textTransform: 'none'
     },
     h2: {
       fontSize: 1.728,
       fontWeight: 300,
-      letterSpacing: 1.7,
+      letterSpacing: 0.17,
       lineHeight: 1.4,
       textTransform: 'none'
     },
@@ -48,20 +48,20 @@ export default extendDefaultTheme({
       fontSize: 1.44,
       fontWeight: 300,
       lineHeight: 1.4,
-      letterSpacing: 1.3,
+      letterSpacing: 0.13,
       textTransform: 'none'
     },
     h4: {
       fontSize: 1.1,
       fontWeight: 500,
-      letterSpacing: 3.5,
+      letterSpacing: 0.35,
       lineHeight: 1.4,
       textTransform: 'uppercase'
     },
     h5: {
       fontSize: 1,
       fontWeight: 700,
-      letterSpacing: 1.5,
+      letterSpacing: 0.15,
       lineHeight: 1.4,
       textTransform: 'uppercase'
     },
@@ -74,7 +74,7 @@ export default extendDefaultTheme({
     body: {
       fontSize: 1,
       fontWeight: 200,
-      letterSpacing: 1,
+      letterSpacing: 0.1,
       lineHeight: 1.7
     }
   }
