@@ -34,7 +34,7 @@ export default extendDefaultTheme({
     googleFontsURL: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600',
     baseFontSize: 16,
     lineHeight: 1.6,
-    letterSpacing: 0.5,
+    letterSpacing: 0.05,
     fontWeight: 300,
     body: {
       fontWeight: 300

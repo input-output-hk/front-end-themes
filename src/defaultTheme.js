@@ -52,7 +52,7 @@ const baseConfig = {
     googleFontsURL: 'https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700',
     baseFontSize: 16,
     lineHeight: 1.6,
-    letterSpacing: 1,
+    letterSpacing: 0.1,
     fontWeight: 400,
     h1: {
       fontSize: 2.488,
@@ -129,7 +129,7 @@ const baseConfig = {
     body: {
       fontSize: 1,
       fontWeight: 200,
-      letterSpacing: 0.5,
+      letterSpacing: 0.05,
       lineHeight: 1.5,
       '@media (min-width:2049px)': {
         fontSize: 1.125
@@ -144,14 +144,14 @@ const baseConfig = {
     button: {
       fontSize: 1,
       fontWeight: 400,
-      letterSpacing: 1.25,
+      letterSpacing: 0.125,
       lineHeight: 1,
       textTransform: 'uppercase'
     },
     caption: {
       fontSize: 0.8,
       fontWeight: 300,
-      letterSpacing: 0.4,
+      letterSpacing: 0.04,
       lineHeight: 1.8,
       textTransform: 'none'
     }

@@ -31,12 +31,12 @@ export default extendDefaultTheme({
     googleFontsURL: 'https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700',
     baseFontSize: 14,
     lineHeight: 1.6,
-    letterSpacing: 0.5,
+    letterSpacing: 0.05,
     fontWeight: 400,
     h1: {
       fontSize: 2.5,
       fontWeight: 700,
-      letterSpacing: 1,
+      letterSpacing: 0.1,
       lineHeight: 1.2,
       textTransform: 'none',
       '@media (min-width:600px)': {
@@ -55,7 +55,7 @@ export default extendDefaultTheme({
     h2: {
       fontSize: 1.75,
       fontWeight: 600,
-      letterSpacing: 1,
+      letterSpacing: 0.1,
       lineHeight: 1.2,
       textTransform: 'none',
       '@media (min-width:600px)': {
@@ -74,7 +74,7 @@ export default extendDefaultTheme({
     h3: {
       fontSize: 1.25,
       fontWeight: 600,
-      letterSpacing: 1,
+      letterSpacing: 0.1,
       lineHeight: 1.2,
       textTransform: 'none',
       '@media (min-width:600px)': {
@@ -93,7 +93,7 @@ export default extendDefaultTheme({
     h4: {
       fontSize: 1.1,
       fontWeight: 400,
-      letterSpacing: 1,
+      letterSpacing: 0.1,
       lineHeight: 1.2,
       textTransform: 'none',
       '@media (min-width:600px)': {
@@ -112,7 +112,7 @@ export default extendDefaultTheme({
     h5: {
       fontSize: 1.05,
       fontWeight: 700,
-      letterSpacing: 1,
+      letterSpacing: 0.1,
       lineHeight: 1.2,
       textTransform: 'none',
       '@media (min-width:600px)': {
@@ -131,7 +131,7 @@ export default extendDefaultTheme({
     h6: {
       fontSize: 1,
       fontWeight: 700,
-      letterSpacing: 1,
+      letterSpacing: 0.1,
       lineHeight: 1.2,
       textTransform: 'none',
       '@media (min-width:600px)': {
@@ -168,7 +168,7 @@ export default extendDefaultTheme({
     body: {
       fontSize: 1.2,
       fontWeight: 300,
-      letterSpacing: 1,
+      letterSpacing: 0.1,
       lineHeight: 1.7,
       '@media (min-width:600px)': {
         fontSize: 1.2
