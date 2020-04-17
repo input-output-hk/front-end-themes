@@ -31,11 +31,11 @@ export default extendDefaultTheme({
     lineHeight: 1.8,
     fontWeight: 400,
     h1: {
-      fontSize: 2.488,
+      fontSize: 3,
       fontWeight: 300,
       lineHeight: 1.15,
-      letterSpacing: 0.15,
-      textTransform: 'none'
+      letterSpacing: 1,
+      textTransform: 'uppercase'
     },
     h2: {
       fontSize: 1.728,
