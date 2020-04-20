@@ -8,7 +8,7 @@ export default extendDefaultTheme({
       main: '#1fc1c3',
       light: '#2ed9db',
       dark: '#17b1b3',
-      contrastText: '#fff'
+      contrastText: '#000'
     },
     secondary: {
       main: '#141325',
