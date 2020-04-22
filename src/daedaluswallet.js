@@ -1,7 +1,7 @@
 import { extendDefaultTheme } from './defaultTheme'
 
 export default extendDefaultTheme({
-  type: 'light',
+  type: 'dark',
   name: 'Daedalus Wallet',
   colors: {
     primary: {
